@@ -16,6 +16,11 @@ a:hover {
     color: black;
 }
 
+.hotel-link {
+    color: darkblue;
+    font-size: larger;
+}
+
 #announcement-div {
     margin-top: -16rem;
 }
@@ -69,7 +74,7 @@ a:hover {
 
 .contact-background {
     /* The image used */
-    background-image: url("../images/Cloudtops-2.jpg");
+    background-image: url("../images/medievaltown.png");
 }
 
 .font-darkgray {
