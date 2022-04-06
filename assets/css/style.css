@@ -16,6 +16,18 @@ a:hover {
     color: black;
 }
 
+#announcement-div {
+    margin-top: -16rem;
+}
+
+#intro-photo {
+    border: 2px solid #343a40;
+}
+
+#names {
+    font-family: 'Asul', sans-serif;
+}
+
 #intro-divider {
     opacity: 0.75;
 }
@@ -46,13 +58,13 @@ a:hover {
 
 .jumbo-background {
     /* The image used */
-    background-image: url("../images/Dusk-2.jpg");
+    background-image: url("../images/medievaltown.png");
     height: 75vh;
 }
 
 .project-background {
     /* The image used */
-    background-image: url("../images/sunset.jpg");
+    background-image: url("../images/medievalscene.png");
 }
 
 .contact-background {
@@ -117,6 +129,10 @@ a:hover {
     .section-title {
         font-size: 2rem;
     }
+
+    #intro-photo {
+        max-width: 75%;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -140,6 +156,10 @@ a:hover {
     .section-title {
         font-size: 2.5rem;
     }
+
+    #intro-photo {
+        max-width: 75%;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -147,14 +167,21 @@ a:hover {
     p, ul {
         font-size: 1.2rem;
     }
+
+    #intro-jumbotron {
+        padding-right: 16rem;
+    }
     
     #headshot-row {
-        margin-top: -10rem;
+        margin-top: -16rem;
+    }
+
+    #intro-photo {
+        max-width: 100%;
     }
 
     #intro-divider {
-        margin-right: 1rem;
-        max-width: 16rem;
+        max-width: 24rem;
     }
 
     div.sticky {
@@ -222,16 +249,7 @@ a:hover {
         font-size: 1.5rem;
     }
 
-    #headshot-row {
-        margin-top: -16rem;
-    }
-
-    #intro-jumbotron {
-        padding-left: 6rem;
-    }
-
     #intro-divider {
-        margin-right: 4rem;
         max-width: 100%;
     }
 
@@ -253,9 +271,5 @@ a:hover {
 
     #lets-talk-button {
         margin-right: 0;
-    }
-
-    #headshot-row {
-        margin-top: -14rem;
     }
 }

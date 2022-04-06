@@ -44,6 +44,7 @@
                                 <a href="#schedule" class="nav-item nav-link nav-custom">Schedule</a>
                                 <a href="#location" class="nav-item nav-link nav-custom">Location</a>
                                 <a href="#registry" class="nav-item nav-link nav-custom">Registry</a>
+                                <a href="#rsvp" class="nav-item nav-link nav-custom">RSVP</a>
                                 <a href="#contact" class="nav-item nav-link nav-custom">Contact</a>
                             </div>
                         </div>
@@ -59,234 +60,82 @@
     <!-- Introduction section. -->
     <div class="container" id="home">
         <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-12 col-md-11 mt-n5">
+            <div class="col-12" id="announcement-div">
                 <div class="jumbotron text-center py-5 rounded-0 bg-khaki shadow" id="intro-jumbotron">
                     <h1 class="display-4">We're Getting Married!</h1>
-                    <p class="lead">Spencer McGhin</p>
-                    <img src="assets/images/ornatedivider500x43.png" alt="divider" class="mt-2 mt-md-4 img-fluid"
+                    <img src="assets/images/ornatedivider500x43.png" alt="divider" class="img-fluid"
                         id="intro-divider">
-                    <p class="lead">Jessica Sills</p>
+                    <h2 id="names">Spencer McGhin<br> and <br>Jessica Sills</h2>
                 </div>
             </div>
         </div>
         <div class="row" id="headshot-row">
-            <div class="col col-md-4 text-center">
-                <img src="assets/images/JessicaCropped.jpg" alt="..." class="rounded-circle img-fluid shadow">
+            <div class="col-md col-lg-7"></div>
+            <div class="col-md col-lg-5 text-center">
+                <img src="assets/images/spenceandjess6.jpg" id="intro-photo" alt="..." class="rounded-circle img-fluid shadow">
             </div>
         </div>
     </div>
 
-    <!-- About section. -->
-    <div class="container mb-4" id="schedule">
+    <!-- Schedule section. -->
+    <div class="container my-4" id="schedule">
         <div class="row">
-            <div class="col-12 col-md-11">
-                <div class="jumbotron text-center text-md-left py-5 mt-4 rounded-0 bg-burlywoodlight shadow"
+            <div class="col-md col-lg-4"></div>
+            <div class="col-md col-lg-8">
+                <div class="jumbotron text-center py-5 my-4 rounded-0 bg-burlywoodlight shadow"
                     id="about-jumbotron">
-                    <h1 class="section-title">About</h1>
-                    <p>I'm Jessica, a software engineer based in Seattle, Washington. I value simple and
-                        intuitive designs that put the user first. I graduated from University of Washington in 2017
-                        with a degree in Computer Engineering and began working at T-Mobile USA. I'm currently
-                        earning a certificate in Full Stack Web Development from the University of Washington.
-                    </p>
-                    <div class="row">
-                        <div class="col">
-                            <p>The following are some of the technologies I've used recently:
-                            </p>
-                            <ul>
-                                <li>HTML & CSS</li>
-                                <li>Javascript</li>
-                                <li>jQuery</li>
-                                <li>Node.js</li>
-                                <li>Express.js</li>
-                                <li>MySQL</li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <p>And these are some additional languages I am familiar with:
-                            </p>
-                            <ul>
-                                <li>Java</li>
-                                <li>C++</li>
-                                <li>C#</li>
-                                <li>Python</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <p>When I'm not developing, I'm outside, either hiking or Live Action Roleplaying (LARPing). In
-                        regards to the latter, I don't just like to build things with my mind, I like to build them
-                        with my hands as well. I flex my creative and problem solving muscles by fashioning experiences,
-                        props, and clothing for others to enjoy.
-                    </p>
+                    <h1 class="section-title">Schedule</h1>
+                    <img src="assets/images/ornatedivider500x43.png" alt="divider" class="img-fluid"
+                        id="intro-divider">
+                    <p>Ceremony: 3:30 PM</p>
+                    <p>Reception: 4:00 PM - 8:00 PM</p>
+                    <p>Guests are welcome to arrive as early as 2:00 PM, and stay later than 8:00 PM.</p>
                 </div>
             </div>
-            <div class="col-md-1"></div>
         </div>
     </div>
 
-    <!-- Projects section. -->
+    <!-- Location section. -->
     <div class="container-fluid project-background parallax pb-5" id="location">
-        <div class="container">
+        <div class="container pt-5">
+            <div class="row mb-5">
+                <div class="col-md col-lg-8">
+                    <div class="card bg-antique shadow animated hidden">
+                        <div class="card-body text-center">
+                            <h1 class="section-title">Location</h1>
+                            <img src="assets/images/ornatedivider500x43.png" alt="divider" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md col-lg-4"></div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md col-lg-8">
+                    <div class="card bg-antique shadow animated hidden">
+                        <div class="card-body">
+                            <h3 class="card-title">Ceremony and Reception</h3>
+                            <hr class="my-4">
+                            <p class="card-text">Jessica and Spencer's House - 12205 Vickery Ave E, Tacoma, WA 98446</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md col-lg-4"></div>
+            </div>
             <div class="row">
-                <div class="col text-center">
-                    <h1 class="section-title mt-5 mb-0">Completed Quests</h1>
-                    <img src="assets/images/ornatedivider500x43.png" alt="divider" class="img-fluid mb-5">
-                </div>
-            </div>
-            <div class="row mb-5 justify-content-left">
-                <div class="col col-lg-7">
-                    <div class="card bg-antique shadow animated hidden">
-                        <div class="card-body text-lg-left">
-                            <h3 class="card-title">The Stranger Scraper</h3>
-                            <h5 class="card-subtitle mb-2">Get Strange Headlines</h5>
-                            <hr class="my-4">
-                            <p class="card-text">A React application that scrapes the front page of Seattle's The Stranger news 
-                                website.
-                            </p>
-                            <p class="card-text">JavaScript ~ Express.js ~ React.js ~ MongoDB</p>
-                            <a href="https://github.com/jsills3110/NewsScraper" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fab fa-github"></i></a>
-                            <a href="https://powerful-ocean-89355.herokuapp.com/" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fas fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5"></div>
-            </div>
-            <div class="row mb-5 justify-content-right">
-                <div class="col-lg-5"></div>
-                <div class="col col-lg-7">
-                    <div class="card bg-antique shadow animated hidden">
-                        <div class="card-body text-lg-right">
-                            <h3 class="card-title">Cajarilla Marketplace</h3>
-                            <h5 class="card-subtitle mb-2">Buy and Sell Locally</h5>
-                            <p class="card-text">An online marketplace that allows you to bid on items for sale, post your own
-                                items, and accept bids placed on your items.
-                            </p>
-                            <hr class="my-4">
-                            <p class="card-text">HTML ~ CSS ~ JavaScript ~ Node.js ~ Express.js ~ MySQL</p>
-                            <a href="https://github.com/lamashree/Project-2" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fab fa-github"></i></a>
-                            <a href="https://cajarilla-marketplace.herokuapp.com/" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fas fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-5 justify-content-left">
-                <div class="col col-lg-7">
-                    <div class="card bg-antique shadow animated hidden">
-                        <div class="card-body text-lg-left">
-                            <h3 class="card-title">What's Cookin'...?</h3>
-                            <h5 class="card-subtitle mb-2">A recipe search and editor</h5>
-                            <hr class="my-4">
-                            <p class="card-text">What's Cookin' simplifies the hassle of finding recipes online. Users
-                                can save, group, and edit recipes in a single page web app.</p>
-                            <p class="card-text">HTML ~ CSS ~ Bootstrap ~ JavaScript ~ jQuery ~ Firebase</p>
-                            <a href="https://github.com/jsills3110/Project-1" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fab fa-github"></i></a>
-                            <a href="http://www.jessicasills.com/Project-1/" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fas fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5"></div>
-            </div>
-            <div class="row mb-5 justify-content-right">
-                <div class="col-lg-5"></div>
-                <div class="col col-lg-7">
-                    <div class="card bg-antique shadow animated hidden">
-                        <div class="card-body text-lg-right">
-                            <h3 class="card-title">RPS Multiplayer</h3>
-                            <h5 class="card-subtitle mb-2">Two-Player Rock Paper Scissors</h5>
-                            <p class="card-text">Compete with a friend on the other side of the world in classic
-                                rock-paper-scissors. Only two people can play at any time; others can watch the choices
-                                that the players make.</p>
-                            <hr class="my-4">
-                            <p class="card-text">HTML ~ CSS ~ Bootstrap ~ JavaScript ~ jQuery ~ Firebase</p>
-                            <a href="https://github.com/jsills3110/RPS-Multiplayer" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fab fa-github"></i></a>
-                            <a href="http://www.jessicasills.com/RPS-Multiplayer/" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fas fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-5 justify-content-left">
-                <div class="col col-lg-7">
+                <div class="col-md col-lg-8">
                     <div class="card bg-antique shadow animated hidden">
                         <div class="card-body">
-                            <h3 class="card-title">Monster GIFs</h3>
-                            <h5 class="card-subtitle mb-2">Custom GIF Search</h5>
-                            <p class="card-text">A Halloween themed GIF search, though the search options are only
-                                limited by your spooky imagination.</p>
+                            <h3 class="card-title">Parking</h3>
                             <hr class="my-4">
-                            <p class="card-text">HTML ~ CSS ~ Bootstrap ~ JavaScript ~ jQuery</p>
-                            <a href="https://github.com/jsills3110/MonsterGifs" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fab fa-github"></i></a>
-                            <a href="http://www.jessicasills.com/MonsterGifs/" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fas fa-link"></i></a>
+                            <p class="card-text">
+                                Collins Grange - 3404 120th St E, Tacoma, WA 98446
+                                <br><br>
+                                Please park at the Collins Grange. A shuttle will be provided to get you to and from your vehicle. 
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5"></div>
-            </div>
-            <div class="row mb-5 justify-content-right">
-                <div class="col-lg-5"></div>
-                <div class="col col-lg-7">
-                    <div class="card bg-antique shadow animated hidden">
-                        <div class="card-body text-lg-right">
-                            <h3 class="card-title">Skyrim Trivia</h3>
-                            <h5 class="card-subtitle mb-2">Elder Scrolls V Themed Trivia Questions</h5>
-                            <p class="card-text">A timed trivia game with random questions related to the famous Elder
-                                Scrolls video game in a single page web app.</p>
-                            <hr class="my-4">
-                            <p class="card-text">HTML ~ CSS ~ Bootstrap ~ JavaScript ~ jQuery</p>
-                            <a href="https://github.com/jsills3110/SkyrimTriviaGame" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fab fa-github"></i></a>
-                            <a href="http://www.jessicasills.com/SkyrimTriviaGame/" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fas fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-5 justify-content-left">
-                <div class="col col-lg-7">
-                    <div class="card bg-antique shadow animated hidden">
-                        <div class="card-body">
-                            <h3 class="card-title">Lord of the Rings RPG</h3>
-                            <h5 class="card-subtitle mb-2">Will you destroy the ring? Or keep it?</h5>
-                            <p class="card-text">Choose a side and strategically defeat your enemies in this simple RPG
-                                game themed after J.R. Tolkien's classic story.</p>
-                            <hr class="my-4">
-                            <p class="card-text">HTML ~ CSS ~ Bootstrap ~ JavaScript ~ jQuery</p>
-                            <a href="https://github.com/jsills3110/unit-4-game" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fab fa-github"></i></a>
-                            <a href="http://www.jessicasills.com/unit-4-game/" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fas fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5"></div>
-            </div>
-            <div class="row mb-5 justify-content-right">
-                <div class="col-lg-5"></div>
-                <div class="col col-lg-7">
-                    <div class="card bg-antique shadow animated hidden">
-                        <div class="card-body text-lg-right">
-                            <h3 class="card-title">Hangman National Park</h3>
-                            <h5 class="card-subtitle mb-2">Nature Park Themed Word Guess</h5>
-                            <p class="card-text">Play classic Hangman with a beautiful backdrop and random words
-                                inspired by our fantastic National Parks.</p>
-                            <hr class="my-4">
-                            <p class="card-text">HTML ~ CSS ~ Bootstrap ~ JavaScript</p>
-                            <a href="https://github.com/jsills3110/Word-Guess-Game" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fab fa-github"></i></a>
-                            <a href="http://www.jessicasills.com/Word-Guess-Game/" target="_blank"
-                                class="card-link font-darkgray icon-size"><i class="fas fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-md col-lg-4"></div>
             </div>
         </div>
     </div>
