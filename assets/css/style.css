@@ -138,6 +138,10 @@ a:hover {
     #intro-photo {
         max-width: 75%;
     }
+
+    #halloween-row {
+        display: none;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -165,28 +169,16 @@ a:hover {
     #intro-photo {
         max-width: 75%;
     }
+
+    #halloween-row {
+        display: none;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     p, ul {
         font-size: 1.2rem;
-    }
-
-    #intro-jumbotron {
-        padding-right: 16rem;
-    }
-    
-    #headshot-row {
-        margin-top: -16rem;
-    }
-
-    #intro-photo {
-        max-width: 100%;
-    }
-
-    #intro-divider {
-        max-width: 24rem;
     }
 
     div.sticky {
@@ -254,8 +246,35 @@ a:hover {
         font-size: 1.5rem;
     }
 
+    #headshot-row {
+        margin-top: -16rem;
+    }
+
+    #intro-jumbotron {
+        padding-right: 16rem;
+    }
+
+    #intro-photo {
+        max-width: 100%;
+    }
+
+    #intro-divider {
+        max-width: 24rem;
+    }
+/* 
     #intro-divider {
         max-width: 100%;
+    } */
+
+    #date-schedule-row {
+        margin-top: -16rem;
+        z-index: -1;
+        position: relative;
+    }
+
+    #halloween-row {
+        display: flex;
+        margin-top: -8rem;
     }
 
     #lets-talk-button {
@@ -276,5 +295,9 @@ a:hover {
 
     #lets-talk-button {
         margin-right: 0;
+    }
+
+    #date-schedule-row {
+        margin-top: -20rem;
     }
 }
